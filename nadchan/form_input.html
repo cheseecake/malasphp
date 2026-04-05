@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN INPUT DATA KE DALAM DATABASE</title>
+</head>
+<body>
+    <h2>LATIHAN INPUT DATA KE DALAM DATABASE</h2>
+    <form method="post" action="proses_input.php" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama_siswa"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jns_kel" value="Laki-laki">Laki-laki
+                    <input type="radio" name="jns_kel" value="Perempuan">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><input type="text" name="alamat"></td>
+            </tr>
+            <tr>
+                <td><label>Agama:</label></td>
+                <td>
+                    <select name="agama">
+                        <option value="Islam">Islam</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Tanggal Lahir:</label></td>
+                <td><input type="date" name="tgl_lhr"></td>
+            </tr>
+            <tr>
+                <td><label>Upload Foto:</label></td>
+                <td><input type="file" name="gambar" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="kirim"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
