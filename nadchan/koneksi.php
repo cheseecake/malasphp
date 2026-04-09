@@ -1,4 +1,4 @@
-// tolong koneksi databasenya di ganti yaww ~nadchan (di hapus aja ini)
+// tolong koneksi databasenya di ganti yaww ~ nadchan di hapus aja ini
 <?php
 $koneksi = mysqli_connect("localhost", "root", "", "nadchanSECRET");
 
